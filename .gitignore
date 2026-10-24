@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+._*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+*.pem
+*.key
+
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output and caches
+dist/
+build/
+.next/
+out/
+coverage/
+.cache/
+.pytest_cache/
+
+# Logs and editor files
+*.log
+.idea/
+.vscode/
+*.swp
+*.swo
