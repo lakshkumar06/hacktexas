@@ -33,3 +33,8 @@ coverage/
 .vscode/
 *.swp
 *.swo
+
+# TypeScript and test output
+*.tsbuildinfo
+playwright-report/
+test-results/
